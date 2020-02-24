@@ -1,0 +1,101 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: 2px solid #ccc;
+}
+
+/* carousel */
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('../img/image1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../img/image2.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../img/image3.jpg');
+  background-size: cover;
+}
+
+/* HOME-HEADING */
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/lights.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* VIDEO PLAY */
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/media.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+
+/* ABOUT SECTION */
+/* page header*/
+#page-header {
+  height: 200px;
+  background: url('..//img/image1.jpg') no-repeat;
+  background-position: 0 -350px;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.about-image {
+  margin-top: -50px;
+}
+
+/* Services */
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
