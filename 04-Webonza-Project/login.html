@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5e0ec58d67.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>BootStrap Theme</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary p-0">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Webonza</a>
+
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="main-header" class="py-2 bg-secondary text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1><i class="fas fa-user"></i> Webonza Admin</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- action -->
+  <section id="action" class="py-4 mb-4 bg-light">
+    <div class="container">
+      <div class="row">
+        <!-- add new features -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- lOGIN -->
+  <section id="login">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+
+            <div class="card-header">
+              <h4>Account Login</h4>
+            </div>
+
+            <div class="card-body">
+              <form action="index.html">
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control">
+                </div>
+
+                <input type="submit" value="Login" class="btn btn-info btn-block">
+
+              </form>
+            </div>
+            <!-- ./card -->
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="lead text-center">
+            Copyright &copy; <span id="year"></span>
+            Webonza
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+
+
+  <script>
+    // get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+
+</body>
+
+</html>
