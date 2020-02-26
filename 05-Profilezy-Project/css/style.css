@@ -1,0 +1,30 @@
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+#main-header .port-item {
+  width: 30%;
+  /* padding: 3rem !important; */
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.bg-lightblue {
+  background: rgb(30, 158, 141);
+  color: #fff
+}
+
+
+
+
+/* Media queries */
+@media(min-width:1199px) {
+  .port-item {
+    padding: 3rem !important;
+  }
+}
