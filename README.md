@@ -1,7 +1,7 @@
 # Bootstrap-Projects
 all my Bootstrap-Projects are available here :)
 ----------------------------------------------------------------------------------------------------------------------------------------
-Bug:- i don't know the reason some features(like smooth Scrollspy and modal and sometimes collapse etc) in Bootstrap 4.x requires jquery but netlify and also github pages also are not supporting :(
+Bug:- i don't know the reason some features(like smooth Scrollspy and modal and sometimes collapse etc) in Bootstrap 4.x requires jquery but netlify and also github pages  are not supporting these features :(
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 01-Technovic-project
